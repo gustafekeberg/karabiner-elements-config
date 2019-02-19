@@ -261,8 +261,8 @@
                     "identifiers": {
                         "is_keyboard": true,
                         "is_pointing_device": false,
-                        "product_id": 45133,
-                        "vendor_id": 7185
+                        "product_id": 10,
+                        "vendor_id": 12431
                     },
                     "ignore": false,
                     "manipulate_caps_lock_led": false,
@@ -445,8 +445,43 @@
                     "identifiers": {
                         "is_keyboard": false,
                         "is_pointing_device": true,
-                        "product_id": 45133,
-                        "vendor_id": 7185
+                        "product_id": 10,
+                        "vendor_id": 12431
+                    },
+                    "ignore": true,
+                    "manipulate_caps_lock_led": false,
+                    "simple_modifications": []
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": true,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 10,
+                        "vendor_id": 12431
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": false,
+                    "simple_modifications": [
+                        {
+                            "from": {
+                                "key_code": "left_control"
+                            },
+                            "to": {
+                                "key_code": "left_command"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": false,
+                        "is_pointing_device": true,
+                        "product_id": 10,
+                        "vendor_id": 12431
                     },
                     "ignore": true,
                     "manipulate_caps_lock_led": false,
@@ -552,7 +587,7 @@
                 }
             ],
             "name": "WFX",
-            "selected": false,
+            "selected": true,
             "simple_modifications": [],
             "virtual_hid_keyboard": {
                 "caps_lock_delay_milliseconds": 0,
@@ -1349,8 +1384,8 @@
                     "identifiers": {
                         "is_keyboard": true,
                         "is_pointing_device": false,
-                        "product_id": 45133,
-                        "vendor_id": 7185
+                        "product_id": 10,
+                        "vendor_id": 12431
                     },
                     "ignore": false,
                     "manipulate_caps_lock_led": false,
@@ -1533,8 +1568,8 @@
                     "identifiers": {
                         "is_keyboard": false,
                         "is_pointing_device": true,
-                        "product_id": 45133,
-                        "vendor_id": 7185
+                        "product_id": 10,
+                        "vendor_id": 12431
                     },
                     "ignore": true,
                     "manipulate_caps_lock_led": false,
@@ -1748,7 +1783,7 @@
                 }
             ],
             "name": "MBA",
-            "selected": true,
+            "selected": false,
             "simple_modifications": [],
             "virtual_hid_keyboard": {
                 "caps_lock_delay_milliseconds": 0,
