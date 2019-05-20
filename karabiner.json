@@ -593,7 +593,8 @@
             "virtual_hid_keyboard": {
                 "caps_lock_delay_milliseconds": 0,
                 "country_code": 0,
-                "keyboard_type": "iso"
+                "keyboard_type": "iso",
+                "mouse_key_xy_scale": 100
             }
         },
         {
@@ -1103,7 +1104,8 @@
             "virtual_hid_keyboard": {
                 "caps_lock_delay_milliseconds": 0,
                 "country_code": 0,
-                "keyboard_type": "ansi"
+                "keyboard_type": "ansi",
+                "mouse_key_xy_scale": 100
             }
         },
         {
@@ -1474,7 +1476,7 @@
                         "vendor_id": 1452
                     },
                     "ignore": false,
-                    "manipulate_caps_lock_led": true,
+                    "manipulate_caps_lock_led": false,
                     "simple_modifications": [
                         {
                             "from": {
@@ -1844,7 +1846,8 @@
             "virtual_hid_keyboard": {
                 "caps_lock_delay_milliseconds": 0,
                 "country_code": 0,
-                "keyboard_type": "iso"
+                "keyboard_type": "iso",
+                "mouse_key_xy_scale": 100
             }
         }
     ]
